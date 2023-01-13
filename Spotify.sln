@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spotify", "Spotify\Spotify.csproj", "{36E933F8-6AE3-487F-B73D-C48073FA2D30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caricamento Musica", "..\..\..\source\repos\SpotifyLibrary\Caricamento Musica\Caricamento Musica.csproj", "{FC6A0FED-F420-46B4-BEF0-6FEF84D14AAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{BF4757A4-30A8-4D06-BE3F-DC53DC33A5E9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Script.sql = ..\..\Script.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36E933F8-6AE3-487F-B73D-C48073FA2D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E933F8-6AE3-487F-B73D-C48073FA2D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E933F8-6AE3-487F-B73D-C48073FA2D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E933F8-6AE3-487F-B73D-C48073FA2D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6A0FED-F420-46B4-BEF0-6FEF84D14AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6A0FED-F420-46B4-BEF0-6FEF84D14AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6A0FED-F420-46B4-BEF0-6FEF84D14AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6A0FED-F420-46B4-BEF0-6FEF84D14AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67FAA8FC-0D4D-4E35-9B81-159AD9106A66}
+	EndGlobalSection
+EndGlobal
